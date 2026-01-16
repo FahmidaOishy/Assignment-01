@@ -1,0 +1,151 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.heading {
+    display: flex;
+    gap: 346px;
+    justify-content: space-around;
+}
+.heading .logo 
+{
+    max-width: 139px;
+    margin-top: 16px;
+}
+.heading .menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    gap:32px;
+    margin-top: 34px;
+
+}
+nav .menu a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000 ;
+}
+.btn {
+    max-width: 164px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: #30B868;
+    margin-top: 24px;
+    padding: 12.5px 16px;
+    border: none;
+    border-radius: 4px;
+}
+ 
+ .banner{
+    background-image: url("B13-A01-Knowledge-Vault/assets/hero-bg.png");
+   background-repeat: no-repeat;
+    max-width: 2042px;
+    height:674px;
+    margin-top: 19px;
+ }
+ .banner .banner-content {
+  text-align: center; 
+  align-items: center;
+ display: flex;
+flex-direction: column;
+justify-content: center;
+padding-top: 115px;
+ }
+ div .access {
+    background-color: white;
+    color: #30B868;
+    padding: 8px;
+    border: none;
+    border-radius: 100px;
+    margin-bottom: 16px;
+ }
+ .banner .banner-content h1 {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    color: white;
+    margin-bottom: 16px;
+ }
+ h1 .colour{
+    color: #30B868;
+ }
+    .banner .banner-content p {
+          font-size: 18px;
+          color: white;
+          height: 60px;
+          line-height: 24px;
+        
+    }
+.option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:16px;
+}
+.option .button1 {
+    max-width: 251px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: #30B868;
+    margin-top: 32px;
+    padding: 16px;
+    border: none;
+    border-radius: 4px;
+}
+.option .button2 {
+    max-width: 198px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin-top: 32px;
+    padding: 16px;
+    border:  1px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+}
+button:hover {
+    background-color: #0c4724;
+}
+.option .button1:hover {
+    background-color: #0c4724;
+}
+.option .button2:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+.notes .header {
+    text-align: center;
+    align-items: center;
+
+}
+.notes .header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 58px;
+    padding-top: 50px;
+    margin-bottom: 16px;
+    color: #001931;
+}
+.notes .header p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+.box .options {
+    display: flex;
+    border: 1px solid black;
+}
