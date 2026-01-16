@@ -268,3 +268,41 @@ ul li {
     color: #627382;
     margin-top: 16px;
  }
+  footer{
+   background-color:rgba(0, 25, 49, 1) ;
+    margin-top: 120px;
+    padding: 120px 120px 30px 120px;
+ }
+ footer .footer-content {
+    display: flex;
+    gap:950px;
+    width: 139px;
+    height:60px;
+
+ }
+ .footer-content .icons h5 { 
+         font-size: 20px;
+         font-weight: 400;
+         color: #FFFFFF;
+         width: 220px;
+
+ }
+ .icons img {
+    
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+ }
+ footer hr {
+ margin-top: 80px;
+ border-color: #627382;
+ }
+ footer p {
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 120px;
+ }
